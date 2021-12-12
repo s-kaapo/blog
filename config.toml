@@ -1,0 +1,67 @@
+## Basic config
+
+baseurl = "https://kaapo.neocities.org/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-us"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "kaapo"
+title = "Programming Blog (+ other things maybe)"
+
+theme = "hugo-theme-shell"
+
+## Site settings
+[params]
+author = "kaapo"
+intro = "disgruntled student"
+authorimage = "blackwhitemondrian.jpg"
+dateformat = "Nov 5, 1980"
+
+
+## Color theme
+[params.terminal]
+scheme = "shell-powershell"
+
+userName = "user"
+pcName = "computer"
+workDir = "work"
+profile = "profile.txt"
+
+ps1Delay = 0
+stdoutDelay = 0
+commandDelay = 20
+
+titleDelay = 0
+contentDelay = 0
+
+description = "i like programming. i also like some other things i may post about on here. not sure yet"
+
+[params.tree]
+use = true
+folderName = "activity"
+
+files = [
+	["First post", "/posts/first_post.md"],
+]
+
+## Site meta settings
+[params.meta]
+description = "site about coding; far off the beaten path"
+keywords = "programming, blog"
+
+## Social media
+[params.social]
+github = "s-kaapo"
+email = "s.kaapo@protonmail.com"
+
+## Main menu
+[[menu.main]]
+	name = "blog"
+	weight = 100
+	identifier = "blog"
+	url = "/blog/"
+

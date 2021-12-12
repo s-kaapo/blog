@@ -1,0 +1,6 @@
+credentials.txt
+
+.*
+!/.git*
+
+access_token.txt
